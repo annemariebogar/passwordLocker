@@ -1,3 +1,9 @@
+# author: Anne Marie Bogar
+# last updated: December 8, 2017
+# PLcrypto.py implements message authentication with AES-256 mode CBC and RSA.
+# This program is meant for encrypting messages in between client and server
+# This program implements encryption (with signature) and decryption (with verification)
+
 from aes import *
 from rsa import *
 import socket
