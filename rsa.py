@@ -1,3 +1,9 @@
+# author: Anne Marie Bogar
+# last updated: December 8, 2017
+# rsa.py implements the RSA algorithm. 
+# This program implements encryption, decryption, digital signing, signature verification,
+# private key generation, and public key generation
+
 from Crypto.Cipher import PKCS1_OAEP
 from Crypto.PublicKey import RSA
 from Crypto import Random
