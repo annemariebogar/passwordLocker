@@ -1,3 +1,7 @@
+# author: Anne Marie Bogar
+# last updated: December 8, 2017
+# aes.py implements the AES-256 algorithm in CBC mode. This program implements encryption, decryption, padding, key generation, and IV generation
+
 from Crypto.Cipher import AES
 from Crypto import Random
 import base64
